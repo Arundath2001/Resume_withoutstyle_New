@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        h1{
+            color: white;
+        }
+        h3{
+            text-transform: uppercase;
+        }
+        p{
+            color: wheat;
+        }
+        .image img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            }
+        hr{
+            border: 1px solid ;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 15px;
+            background-color: #f8f8f8;
+            resize: none;
+        }
+        select {
+            border:0;
+            background:transparent;
+            height:32px;
+            border:1px solid #d8d8d8;
+            width:350px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="image" align="center">
+    <img src="./images/Arundath.jpg" alt="Arundath_image" >
+    </div>
+    <div>
+    <h1 align="center">Arundath</h1>
+    <br>
+    <h3>About me</h3>
+    <hr>
+
+<!-- Paragraph -->
+
+    <p>As a dedicated computer science student , I've acquired a strong foundation in web development and I'm excited to apply these skills to real-world projects.</p>
+    <br>
+    <h3>contact</h3>
+    <hr>
+    <ul type="disk">
+        <li>7994352926</li>
+        <li><a href="mailto:arundatharun44@gmail.com">arundatharun44@gmail.com</a></li>
+        <li>Kozhikode , Kerala</li>
+        <li><a href="https://www.linkedin.com/in/arun-dath-b20890243">arundath</a></li>
+    </ul>
+    
+    <br>
+    <h3>education</h3>
+    <hr>
+
+<!-- table -->
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>University / School</th>
+                <th>Course</th>
+                <th>CGPA / Percentage</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>APJ Abdul Kalam Technological University </td>
+            <td>Bachelor of Technology</td>
+            <td>6.87</td>
+            <td>2019 - 2023</td>
+        </tr>
+        <tr>
+            <td>Madappally Higher Secondary School</td>
+            <td>Higher Secondary</td>
+            <td>81%</td>
+            <td>2018 - 2019</td>
+        </tr>
+        <tr>
+            <td>Madappally Higher Secondary School</td>
+            <td>Secondary School</td>
+            <td>98%</td>
+            <td>2016 - 2017</td>
+        </tr>
+    </table>
+    <br>
+    <h3>Projects</h3>
+    <hr>
+    <ol type="1">
+        <li>Online Assignment Plagarism Checker</li>
+        <li>Sign Language Translator to Malayalam </li>
+    </ol>
+</div><br><hr>
+
+<h3>Resume Preview</h3>
+
+<!-- iframe -->
+
+<iframe src="https://arundath2001.github.io/Resume/" title="Resume_Preview" width="600px" height="300px"></iframe>
+<br>
+
+<h3>My Blender Work :</h3>
+
+<!-- video Tag -->
+
+<video width="600px" height="300px" controls autoplay>
+    <source src="./images/car.mp4" type="video/mp4">
+    <source src="./images/car.ogg" type="video/ogg">
+    Your browser does not support the video.
+</video>
+<br>
+
+<h3>Play the Audio:</h3>
+
+<!-- Audio Tag -->
+
+<audio controls>
+    <source src="./images/beep.mp3" type="audio/mp3">
+</audio>
+<br>
+
+
+<h3>Resume Image:</h3>
+
+<!-- Picture tag -->
+
+<picture>
+    <source media="(min-width : 600px)" srcset="./images/SS1Black.jpg">
+    <source media="(min-width : 400px)" srcset="./images?SS1Blue.jpg">
+    <img src="./images/SS1.jpg" alt="Resume_image" width="300px" height="400px">
+</picture>
+<br>
+
+<h3>Contact Me:</h3>
+
+<!-- Form -->
+
+<form>
+    <label>Name:</label>
+    <input type="text" placeholder="Type your Name" value="Name">
+    <br>
+
+    <!-- Radio Button -->
+
+    <label>Gender:<input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+    </label>
+    <br>
+    <label>Country</label>
+    <select name="Country">
+        <option value="India">India</option>
+        <option value="Uk">Uk</option>
+        <option value="UAE">UAE</option>
+    </select>
+
+    <!-- Textarea -->
+    <textarea placeholder="Type your Message Here"></textarea>
+    <input type="button" value="Send">
+</form>
+
+
+    <h4 align="center">To See More :<a href="./page1.html">CLICK HERE</a></h4>
+</body>
+</html>
